@@ -6,7 +6,7 @@ require_once('fungsi_validasi.php');
 $server = "localhost";
 $username = "root";
 $password = "";
-$database = "dblokomedia";
+$database = "notif";
 
 // Koneksi dan memilih database di server
 mysql_connect($server,$username,$password) or die("Koneksi gagal");
