@@ -1,0 +1,144 @@
+/*
+ * jQuery Nivo Slider v2.4
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2011, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+	
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.nivoSlider  span {
+	position:absolute;
+	top:0px;
+	left:0px;
+	-moz-box-shadow:0px 10px 20px rgba(0, 0, 0, 0.9);
+	
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:60;
+	display:none;
+}
+#cs-buttons-coin-slider {
+	overflow: hidden;
+	visibility: hidden;
+	
+}
+
+/* The slices in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:50;
+	height:100%;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+	width:100%;
+	z-index:89;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:99;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+	overflow: hidden;
+	visibility: hidden;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav a {
+	position:relative;
+	z-index:99;
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+.injdl {
+	width:450px;
+	height:25px;
+	top: 584px;
+	left:24px;
+	font-size:123.1%;
+	filter:alpha(opacity=75);
+	-moz-opacity:.75;
+	opacity:.75;
+	display:block;
+	overflow: visible;
+	visibility: visible;
+	z-index: 45000;
+	-moz-border-radius: 50px;
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	background-color: #000;
+	margin-left: -70px;
+	margin-bottom: -350px;
+	text-align: center;
+}
+#coin-slider {
+	margin-left: 128px;
+	margin-top: 78px;
+}
+#coin-slider  a {
+	color: #FFFFFF;
+	text-shadow:0 0 20px rgba(34,4,210,1), 0 0 7px rgba(255,255,255,100);
+	outline:none;
+}
+
+#coin-slider  a:hover {
+	color: #69daff;
+	text-shadow:0 0 30px rgba(34,4,255,1), 0 0 7px rgba(255,255,255,100);
+	outline:none;
+}
+#cs-navigation-coin-slider {
+	overflow: hidden;
+	visibility: hidden;
+}
+.slideshow {
+	margin-bottom: 80px;
+}

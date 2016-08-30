@@ -1,0 +1,265 @@
+/**
+ *********************************************
+ * Prototype of styles for horizontal CSS-menu
+ * @data 30.06.2009
+ *********************************************
+ * (X)HTML-scheme:
+ *  <div id="menu">
+ *      <ul class="menu">
+ *          <li><a href="#" class="parent"><span>level 1</span></a>
+ *              <ul>
+ *                  <li><a href="#" class="parent"><span>level 2</span></a>
+ *                      <ul><li><a href="#"><span>level 3</span></a></li></ul>
+ *                  </li>
+ *              </ul>
+ *          </li>
+ *          <li class="last"><a href="#"><span>level 1</span></a></li>
+ *      </ul>
+ *  </div>
+ *********************************************
+ */
+
+/* menu::base */
+div#menu {
+    height: 46px;
+    padding-left: 24px;
+    background: url(images/left.png) no-repeat;
+    _background: url(images/left.gif) no-repeat;
+    width:auto;
+}
+
+div#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+div#menu ul.menu {
+    padding-right: 24px;
+    background: url(images/right.png) no-repeat right 0;
+    _background: url(images/right.gif) no-repeat right 0;    
+}
+
+div#menu li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: left;
+    z-index: 9;
+    width: auto;
+}
+div#menu ul ul li {
+    z-index: 9;
+}
+div#menu li div {
+    list-style: none;
+    float: left;
+    position: absolute;
+    z-index: 11;
+    top: 39px;
+    left: -18px;
+    -left: 4px;
+    visibility: hidden;
+    width: 180px;
+	  margin: 0px 0 0 -4px;
+    padding: 0; 
+    background: url(images/submenu-top.png) no-repeat 0px 0;
+    -background: url(images/submenu-top.gif) no-repeat 0px 0; 
+}
+div#menu ul ul {
+	  z-index: 12;
+	  width: 180px;
+    padding: 0px 0px 12px 0px;
+    -padding: 0px 0px 3px 0px;    
+    background: url(images/submenu-bottom.png) no-repeat 0px bottom;
+    -background: #E4E4E2 none;        
+    margin: 14px 0 0 0;   
+    -margin: 5px 0 0 0;      
+}
+div#menu li:hover>div {
+    visibility: visible;
+}
+
+div#menu a {
+    position: relative;
+    z-index: 10;
+    height: 38px;
+    display: block;
+    float: left;
+    line-height: 38px;
+    text-decoration: none;
+    margin-top: 1px;
+    white-space: nowrap;
+    width: auto;
+    padding-right:5px;
+    text-align:center;
+}
+div#menu span {
+    margin-top: 2px;
+    padding-left: 15px;
+    color: #fff;
+    font: normal 13px Tahoma;
+    background: none;
+    line-height: 38px;	
+    display: block;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 95% 0;
+    text-align: center;
+}
+
+/* menu::level1 */
+div#menu a {
+    padding: 0 15px 0 0;
+    line-height: 38px;
+    height: 46px;
+    _margin-right: 1px;
+    background: none;
+    font-weight:bold;    
+
+}
+div#menu span {
+    font-weight:bold; 
+}
+div#menu a:hover{
+    background-image: url(images/selected-sub.png);
+    background-repeat: repeat-x;
+    background-position: right -1px;    
+    -background: url(images/selected-sub.gif) repeat-x right -1px; 
+}
+div#menu li.current a,
+div#menu ul.menu>li:hover>a {
+    background-image: url(images/selected-sub.png);
+    background-repeat: repeat-x;
+    background-position: right -1px;  
+    -background: url(images/selected-sub.gif)  repeat-x right -1px; 
+}
+div#menu a:hover span{
+	  color: #000000;
+}	
+div#menu ul.menu>li:hover>a span {
+	  color: #000000;
+}
+div#menu li {}
+div#menu li.last { background: none; }
+
+
+/* menu::level2 */
+div#menu ul ul li {
+    background-image: url(images/sep-sub.png);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    margin: 0;
+    padding: 0;
+}
+div#menu ul ul li:hover {
+    background-image: url(images/sub-item-hover.gif);
+    background-color: #717171;
+    background-repeat: repeat-x;
+    background-position: left top;
+}
+div#menu ul ul a {
+	  color: #000000;	
+    height: auto;
+    float: none;
+    display: block;
+    line-height: 25px;
+    font-size: 13px;
+    z-index: -1;
+    padding: 6px 0 6px 0px;
+    white-space: normal;
+    width: 166px;
+    margin: 0 0px 0 13px;
+    background: none;
+}
+    
+div#menu ul ul a span {
+    color: #000000;	
+	  padding: 0 3px;
+    line-height: 25px;
+    font-size: 13px;
+    font-weight: normal;
+    margin:0;    
+}
+div#menu li.current ul a,
+div#menu li.current ul a span {
+    background: none;
+}
+div#menu ul ul a:hover {
+	background: none;
+  color: #fff;
+}
+div#menu ul ul a:hover span {
+  background: none;
+  color: #fff;
+}
+div#menu ul ul a.parent {
+  background: url(images/submenu-pointer.png) no-repeat right top;
+  -background: url(images/submenu-pointer.gif) no-repeat right top;  
+  margin-right: -1px;
+}
+div#menu ul ul a.parent span {
+  padding-right: 26px;
+}
+div#menu ul ul a.parent:hover {
+  background: url(images/submenu-pointer-hover.gif) no-repeat right top;
+  -background: url(images/submenu-pointer.gif) no-repeat right top;  
+}
+div#menu ul ul a.parent:hover span {
+}
+div#menu ul ul span {
+	
+    margin-top: 0;
+    text-align: left;
+}
+div#menu ul ul li.last { background: none; }
+div#menu ul ul li {
+    width: 100%;
+}
+
+/* menu::level3 */
+
+div#menu ul ul div {
+	  width: 180px;
+	  padding: 0;
+    background: url(images/subsubmenu-top.png) no-repeat 0px 0;
+    -background: url(images/subsubmenu-top.gif) no-repeat 0px 0; 	  
+    margin: -32px 0 0 198px !important;
+    margin: -32px 0 0 176px;
+}
+div#menu ul ul ul {
+    padding: 11px 0px 9px 0px;	
+    margin: 20px 0 0 0; 
+}
+div#menu ul ul div li {
+    position:relative;
+    top:-10px;
+}
+
+/* lava lamp */
+div#menu li.back {
+    background: url(images/selected-sub.png) no-repeat 0 0;
+    -background: url(images/selected-sub.gif) no-repeat 0 0;    
+    width: 5px;
+    height: 46px;
+    z-index: 8;
+    position: absolute;
+    padding: 0;
+    margin: 0px 0 0 0;
+}
+
+
+div#menu li.back .left {
+    padding:0;
+    width:auto;
+    background: url(images/selected-sub.png) repeat-x right 0;
+    -background: url(images/selected-sub.gif) repeat-x right 0;     
+    height: 46px;
+    margin: 0 0 0 5px;
+    float: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    visibility: visible;
+}

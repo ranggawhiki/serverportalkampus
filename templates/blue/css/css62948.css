@@ -1,0 +1,29 @@
+/* nivo-slider.css */
+   .nivoSlider{position:relative;}
+#hide/* Generic Utility */
+ {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+	overflow: hidden;
+	visibility: hidden;
+}
+.nivoSlider img{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index: 8;
+}.nivoSlider12  a.nivo-imageLink{position:absolute;top:0px;left:0px;width:100%;height:100%;border:0;padding:0;margin:0;z-index:6;display:none;}.nivo-slice{display:block;position:absolute;z-index:5;height:100%;}.nivo-box{display:block;position:absolute;z-index:5;}.nivo-caption{position:absolute;left:0px;bottom:0px;background:#000;color:#fff;opacity:0.8;width:100%;z-index:8;}
+.nivo-caption p{padding:5px;margin:0;}.nivo-caption a{display:inline !important;}.nivo-html-caption{display:none;}.nivo-directionNav a{position:absolute;top:45%;z-index:9;cursor:pointer;}.nivo-prevNav{
+	left:0px;
+	overflow: hidden;
+	visibility: hidden;
+}.nivo-nextNav{
+	right:0px;
+	visibility: hidden;
+}.nivo-controlNav a{
+	position:relative;
+	z-index:9;
+	cursor:pointer;
+	visibility: hidden;
+}

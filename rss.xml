@@ -1,0 +1,27 @@
+<?xml version="1.0"?> 
+<rss version="2.0"> 
+<channel> 
+<title>Bukulokomedia Feed</title> 
+<link>http://bukulokomedia.com</link> 
+<description>Feed Description</description> 
+<language>en-us</language><item>
+                 <title>test</title>
+                 <link>http://cms.bukulokomedia.com/berita-141-test.html</link>
+                 <description>test buat android saja,test buat update mau diliat mas yusup diliatin pak ...</description>
+                 </item><item>
+                 <title>Teknik Looping Didalam Looping Disertai Studi Kasusnya</title>
+                 <link>http://cms.bukulokomedia.com/berita-137-teknik-looping-didalam-looping-disertai-studi-kasusnya.html</link>
+                 <description>Dalam logika pemrograman, looping (perulangan) digunakan untuk mengulang suatu proses. Namun, dalam tutorial kali ini, saya tidak akan  membahas dasar-dasar looping (perulangan), jadi saya langsung aja ke ...</description>
+                 </item><item>
+                 <title>Film 'My Name is Khan' Cetak Rekor di Amerika</title>
+                 <link>http://cms.bukulokomedia.com/berita-104-film-my-name-is-khan-cetak-rekor-di-amerika.html</link>
+                 <description>Dengan US$1,86 juta pada box office di minggu pertamanya, film My Name is Khan yang dibintangi Shah Rukh Khan telah memecahkan rekor sebagai film India dengan pendapatan terbanyak yang diputar di Amerika Utara.   Film ...</description>
+                 </item><item>
+                 <title>Browser Safari Diklaim Paling Handal di Windows</title>
+                 <link>http://cms.bukulokomedia.com/berita-64-browser-safari-diklaim-paling-handal-di-windows.html</link>
+                 <description>Dibandingkan browser Internet lainnya, Apple mengklaim browser web Safari buatannya adalah yang paling handal digunakan jika digunkan di atas sistem operasi Windows. Hal tersebut disampaikan CEO Apple Steve Jobs saat ...</description>
+                 </item><item>
+                 <title>Digerus Firefox, IE Makin Melempem</title>
+                 <link>http://cms.bukulokomedia.com/berita-60-digerus-firefox-ie-makin-melempem.html</link>
+                 <description>Browser Mozilla Firefox sepertinya makin berkibar. Berdasarkan data terbaru dari biro penelitian Net Applications, Firefox menapak naik dengan menguasai 20,78 persen pangsa pasar browser pada bulan November, naik dari ...</description>
+                 </item></channel></rss>

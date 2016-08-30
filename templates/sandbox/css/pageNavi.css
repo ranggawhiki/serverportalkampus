@@ -1,0 +1,120 @@
+/* Designed by Orman Clark: http://www.premiumpixels.com/freebies/light-and-dark-pagination-psd/ */
+.pageNavi {
+	clear: both;
+	font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+	height:30px;
+	font-size:0.75em; /* This may need changed to suit your theme */
+	-webkit-font-smoothing:antialiased; /* smooths the font in webkit, optional */
+}
+.pageNavi a, .pageNavi span {
+	/* Change this image URL to the relative location of the sprite sheet: */
+	background:url(../images/numbers_spritesheet.png) no-repeat;
+	display:block;
+	float:left;
+	width:28px;
+	height:27px;
+	text-decoration:none;
+	text-align:center;
+	line-height:26px;
+	margin-right:3px;
+	font-weight:bold;
+}
+.pageNavi a:active {
+	margin-top:1px;
+}
+.pageNavi .pages, .pageNavi .extend {
+	background:none;
+	width:auto;
+	font-weight:normal;
+	margin-right:7px;
+	line-height:27px;
+}
+.pageNavi .extend {
+	padding:0 5px;
+	margin:0 5px 0 1px;
+}
+.pageNavi .nextpostslink, .pageNavi .previouspostslink, .pageNavi .first, .pageNavi .last {
+	text-indent:-9999px;
+}
+
+/* Individual color themes */
+
+.light .pageNavi a, .light .pageNavi span {
+	background-position:0 0;
+	color:#717171;
+	text-shadow:1px 1px 0 #fff;
+}
+.light .pageNavi a:hover {
+	background-position:0 -27px;
+}
+.light .pageNavi span.current {
+	text-shadow:0 1px 0 #585858;
+	color:#fff;
+	background-position:-140px 0;
+}
+.light .nextpostslink {
+	background-position:-113px 0 !important;
+}
+.light a.nextpostslink:hover {
+	background-position:-113px -27px !important;
+}
+.light .previouspostslink {
+	background-position:-28px 0 !important;
+}
+.light a.previouspostslink:hover {
+	background-position:-28px -27px !important;
+}
+.light .first {
+	background-position:-56px 0 !important;
+}
+.light a.first:hover {
+	background-position:-56px -27px !important;
+}
+.light .last {
+	background-position:-84px 0 !important;
+}
+.light a.last:hover {
+	background-position:-84px -27px !important;
+}
+
+
+.dark .pageNavi a, .dark .pageNavi span {
+	background-position:0 -54px;
+	color:#fff;
+	text-shadow:1px 1px 0 #222527;
+}
+.dark .pageNavi a:hover {
+	background-position:0 -81px;
+}
+.dark .pageNavi span.current {
+	background-position:-140px -54px;
+}
+.dark .pageNavi span.current {
+	text-shadow:0 1px 0 #191b1d;
+	color:#fff;
+	margin-top:1px;
+}
+.dark .nextpostslink {
+	background-position:-113px -54px !important;
+}
+.dark .nextpostslink:hover {
+	background-position:-113px -81px !important;
+}
+.dark .previouspostslink {
+	background-position:-28px -54px !important;
+}
+.dark .previouspostslink:hover {
+	background-position:-28px -81px !important;
+}
+.dark .first {
+	background-position:-56px -54px !important;
+}
+.dark .first:hover {
+	background-position:-56px -81px !important;
+}
+.dark .last {
+	background-position:-84px -54px !important;
+}
+.dark .last:hover {
+	background-position:-84px -81px !important;
+}
