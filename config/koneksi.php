@@ -3,7 +3,7 @@
 require_once('fungsi_validasi.php');
 
 // definisikan koneksi ke database
-$server = "localhost";
+$server = "notif";
 $username = "notif";
 $password = "JangkrikBos";
 $database = "notif";
