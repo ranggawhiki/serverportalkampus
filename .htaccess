@@ -1,4 +1,3 @@
-DirectoryIndex awal.html index.html index.php
 IfModule mod_rewrite.c>
 RewriteEngine on
 
