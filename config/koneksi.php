@@ -3,7 +3,7 @@
 require_once('fungsi_validasi.php');
 
 // definisikan koneksi ke database
-$server = "localhost";
+$server = "https://pma.passionit.net/index.php?token=e1c83276cef28cd2003cdc6f93ef320c#PMAURL-1:db_structure.php?db=notif&table=&server=1&target=&token=e1c83276cef28cd2003cdc6f93ef320c";
 $username = "notif";
 $password = "JangkrikBos";
 $database = "notif";
