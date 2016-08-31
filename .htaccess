@@ -1,5 +1,7 @@
+Options +FollowSymlinks
 IfModule mod_rewrite.c>
 RewriteEngine on
+RewriteBase /
 
 RewriteRule ^$ media.php?module=home [L]
 RewriteRule ^galeri-(.*)\.html$ zoom.php?id=$1 [L]
