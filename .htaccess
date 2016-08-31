@@ -27,6 +27,3 @@ RewriteRule ^semua-album\.html$ media.php?module=semuaalbum&id=$1 [L]
 RewriteRule ^halgaleri-([0-9]+)-(.*)\.html$ media.php?module=detailalbum&id=$1&halgaleri=$2 [L]
 RewriteRule ^halkomentar-(.*)-([0-9]+)\.html$ media.php?module=detailberita&id=$1&halkomentar=$2 [L]
 
-
-# Options All -Indexes
-</IfModule>
