@@ -1,4 +1,5 @@
-<IfModule mod_rewrite.c>
+DirectoryIndex awal.html index.html index.php
+IfModule mod_rewrite.c>
 RewriteEngine on
 
 RewriteRule ^$ media.php?module=home [L]
