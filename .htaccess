@@ -2,7 +2,7 @@
 RewriteEngine on
 RewriteBase /
 
-RewriteRule ^$ media.php?module=home [L]
+RewriteRule ^index\.php$ media.php?module=home [L]
 RewriteRule ^galeri-(.*)\.html$ zoom.php?id=$1 [L]
 RewriteRule ^album-([0-9]+)-(.*)\.html$ media.php?module=detailalbum&id=$1 [L]
 RewriteRule ^berita-(.*)-(.*)\.html$ media.php?module=detailberita&id=$1 [L]
