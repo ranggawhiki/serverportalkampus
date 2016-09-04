@@ -3,7 +3,7 @@
 require_once('fungsi_validasi.php');
 
 // definisikan koneksi ke database
-$server = "notif";
+$server = "pma.passionit.net";
 $username = "notif";
 $password = "JangkrikBos";
 $database = "notif";
