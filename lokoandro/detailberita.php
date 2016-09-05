@@ -13,7 +13,7 @@ while($row=mysql_fetch_array($query))
 
 $char = '"';
 
-$json .='{"id":"'.$row['id_berita'].'","judul":"'.str_replace($char,'`',strip_tags($row["judul"])).'","hari":"'.strip_tags($row["hari"]).'","username":"'.strip_tags($row["username"]).'","isi":"'.str_replace($char,'`',strip_tags($row["isi_berita"])).'","tanggal":"'.strip_tags($row["tanggal"]).'","jam":"'.strip_tags($row["jam"]).'","gambar":"http://10.0.3.2/lokomedia/foto_berita/'.$row['gambar'].'"},';
+$json .='{"id":"'.$row['id_berita'].'","judul":"'.str_replace($char,'`',strip_tags($row["judul"])).'","hari":"'.strip_tags($row["hari"]).'","username":"'.strip_tags($row["username"]).'","isi":"'.str_replace($char,'`',strip_tags($row["isi_berita"])).'","tanggal":"'.strip_tags($row["tanggal"]).'","jam":"'.strip_tags($row["jam"]).'","gambar":"http://notif.passionit.net/foto_berita/'.$row['gambar'].'"},';
 
 }
 // buat menghilangkan koma diakhir array
