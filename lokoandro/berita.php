@@ -11,7 +11,7 @@ while ($row = mysql_fetch_array ($query)) {
 
 $char = '"';
 
-$json .= '{"id":"'.$row['id_berita'].'","judul":"'.str_replace($char,'`',strip_tags($row['judul'])).'","gambar":"http://10.0.3.2/lokomedia/foto_berita/small_'.$row['gambar'].'"},';
+$json .= '{"id":"'.$row['id_berita'].'","judul":"'.str_replace($char,'`',strip_tags($row['judul'])).'","gambar":"http://notif.passionit.net/foto_berita/small_'.$row['gambar'].'"},';
 }
 
 // buat menghilangkan koma diakhir array
