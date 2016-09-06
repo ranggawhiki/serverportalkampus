@@ -250,6 +250,6 @@
 			</div><!-- / end footer -->
 		</div><!-- / end wrapper -->
 	</div><!-- / end container -->
-<div id="copyright">Copyright &copy; 2011 <a href="http://apycom.com/">Apycom jQuery Menus</a></div>
+<div id="copyright">Copyright &copy; 2016 <a href="http://notif.passionit.net/">Rangga Whiki Pangestu</a></div>
 </body>
 </html>
