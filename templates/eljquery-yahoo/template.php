@@ -244,7 +244,7 @@
 				<div class="foot_l"></div>
 				<div class="foot_content">
 				  <p>&nbsp;</p>
-					<p>Copyright &copy; 2011 by <a href="http://bukulokomedia.com/">bukulokomedia.com</a>. All rights reserved.</p>
+					<p>Copyright &copy; 2016 by <a href="http://notif.passionit.net/">Rangga Whiki Pangestu</a>. All rights reserved.</p>
 				</div>
 				<div class="foot_r"></div>
 			</div><!-- / end footer -->
