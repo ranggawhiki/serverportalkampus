@@ -21,7 +21,7 @@ else{
 ?>
 <html>
 <head>
-<title>Administrator CMS Lokomedia</title>
+<title>Administrator Portal Kampus</title>
   <script src="../tinymcpuk/jscripts/tiny_mce/tiny_mce.js" type="text/javascript"></script>
   <script src="../tinymcpuk/jscripts/tiny_mce/tiny_lokomedia.js" type="text/javascript"></script>
 
