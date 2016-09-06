@@ -52,7 +52,7 @@ return (true);
 <div class="clear"></div>
 
 <!-- Footer -->
-<div id="footer">Copyright &copy; 2009 by Rangga Whiki Pangestu. All rights reserved.</div>
+<div id="footer">Copyright &copy; 2016 by Rangga Whiki Pangestu. All rights reserved.</div>
 
 <!-- vertical_effect -->
 <div id="vertical_effect">&nbsp;</div>
